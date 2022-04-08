@@ -16,7 +16,7 @@ namespace Nhom17_Ca2_QuanLyThueXe
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "KhachHangs", action = "Index", id = UrlParameter.Optional }
             );
         }
     }
